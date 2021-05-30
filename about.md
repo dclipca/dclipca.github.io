@@ -1,4 +1,3 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
-
+This is a blog dedicated to anything I find interesting. This includes but is not limited to Machine Learning, Biology, Emerging Trends and various unexplored ideas.

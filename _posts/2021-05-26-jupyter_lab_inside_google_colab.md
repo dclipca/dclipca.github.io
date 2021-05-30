@@ -1,0 +1,39 @@
+# Installing JupyterLab (or Jupyter Notebook) on Google Colab via Terminal through SSH
+
+
+## Accessing Google Colab via SSH
+First, we need SSH access to the Google Colab instance. To do this simply copy the code below into Google Colab and run it by pressing on the "Play" button.
+```
+# Install colab_ssh on google colab
+!pip install colab_ssh --upgrade
+
+from colab_ssh import launch_ssh_cloudflared, init_git_cloudflared
+launch_ssh_cloudflared(password="1cb251b3f61a99afa07b8e9b0a1ef0507ced677a322c09d13555b24f75ae9d69")
+```
+After the code is processed, you will have to install Cloudflared on you PC (only for the first time). Note that if you will have any valuable information in your instance, it makes sense to change your password, i.e. change `1cb251b3f61a99afa07b8e9b0a1ef0507ced677a322c09d13555b24f75ae9d69` to something else. After you installed it, you can connect to the Colab instance via SSH with the following command (once again, replace the password if you decided to replace it in the previous step):
+
+```
+ssh -L 8888:localhost:8888 1cb251b3f61a99afa07b8e9b0a1ef0507ced677a322c09d13555b24f75ae9d69
+```
+
+After you succesfuly connected to the instance, copy and paste this into your termiinal in order to install and run JupyterLab:
+
+```
+sudo apt update && sudo apt upgrade && export AZURE_SEARCH_KEY=1cb251b3f61a99afa07b8e9b0a1ef0507ced677a322c09d13555b24f75ae9d69 && sudo apt install tmux && sudo apt install python3-pip && pip install jupyterlab && tmux && jupyter lab --ip 0.0.0.0 --no-browser --allow-root
+```
+
+After the downloanding and installing is done, open the terminal and press `CTRL + B`. Now you should be set. To access the JupyterLab instance, visit `http://localhost:8888/`.
+
+## Bonus
+
+Notice the line
+
+```
+AZURE_SEARCH_KEY=1cb251b3f61a99afa07b8e9b0a1ef0507ced677a322c09d13555b24f75ae9d69
+```
+
+You can add any keys to be accessed later from Jupyter via Python's `os` package, like this:
+
+```
+key = os.environ.get('AZURE_SEARCH_KEY', 'IF THE KEY IS NOT FOUND, IT WILL BE REPLACED WITH THIS STRING')
+```
