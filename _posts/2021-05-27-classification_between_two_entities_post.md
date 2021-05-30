@@ -1,6 +1,6 @@
 # Two Entity Discrimination with FastAI
 
-![Data Example](images/entity-discrimination-data-example.png)
+![Data Example](https://github.com/dclipca/dclipca.github.io/raw/master/images/entity-discrimination-data-example.png)
 
 First, we need to download the images. In this example we will discriminate between two kinds of mushrooms – Fly Agaric (poisonous) and Champignon (edible). A Bing Image Search key is needed (free). In order to set the key run this in your terminal: `export AZURE_SEARCH_KEY=your_key_here`.
 ```
@@ -46,6 +46,6 @@ learn.fine_tune(7)
 
 As you can see, one of the worst predictions is a misslabeled image.
 
-![Worst Predictions](images/entity-discrimination-worst-predictions.png)
+![Worst Predictions](https://github.com/dclipca/dclipca.github.io/raw/master/images/entity-discrimination-worst-predictions.png)
 
-![Confusion Matrix](images/logo.png)
+![Confusion Matrix](https://github.com/dclipca/dclipca.github.io/raw/master/images/entity-discrimination-confusion-matrix.png)
