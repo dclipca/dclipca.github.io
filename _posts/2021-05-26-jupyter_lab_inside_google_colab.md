@@ -1,5 +1,6 @@
 # Installing JupyterLab (or Jupyter Notebook) on Google Colab via Terminal through SSH
 
+![Data Example](https://github.com/dclipca/dclipca.github.io/raw/master/images/jupyter_logo.png)
 
 ## Accessing Google Colab via SSH
 First, we need SSH access to the Google Colab instance. To do this simply copy the code below into Google Colab and run it by pressing on the "Play" button.
