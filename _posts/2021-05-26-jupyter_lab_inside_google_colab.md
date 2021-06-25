@@ -1,4 +1,4 @@
-# Installing JupyterLab (or Jupyter Notebook) on Google Colab via Terminal through SSH
+# Exploit Google Like It Exploits You: Use Colab for Anything, Including Jupyter, Crypto Mining and DDoSing Google Servers.
 
 ![Data Example](https://github.com/dclipca/dclipca.github.io/raw/master/images/jupyter_logo.png)
 
