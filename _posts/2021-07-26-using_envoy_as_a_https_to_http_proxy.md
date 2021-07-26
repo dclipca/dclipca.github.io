@@ -1,5 +1,14 @@
 # Using Envoy as a HTTPS to HTTP proxy (7X Faster than Nginx)
 
+Let's create a folder:
+```
+mkdir envoy
+```
+Enter that folder:
+```
+cd envoy
+```
+
 To use HTTPS, you would need a SSL certificate. The simplest way to generate a private key and self-signed certificate for localhost is with this openssl command:
 
 ```
@@ -9,6 +18,7 @@ openssl req -x509 -out localhost.crt -keyout localhost.key \
    printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
 ```
 
+After running the command above, you should get two files, ```localhost.crt``` and ```localhost.key```. You will have to trust those certificates from the Keychain (on macOS).
 
 Create a ```envoy.yaml``` file with the following content:
 ```
@@ -61,3 +71,6 @@ static_resources:
                       port_value: 3000
 
 ```
+
+Considering that you have Envoy installed (run ```brew update && brew update && brew install envoy``` if not), you should run the following command in the envoy folder:
+``` envoy -c envoy.yaml```
