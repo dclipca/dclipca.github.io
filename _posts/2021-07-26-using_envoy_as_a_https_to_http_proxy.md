@@ -1,4 +1,4 @@
-# Using Envoy as a HTTPS to HTTP proxy (7X Faster than Envoy)
+# Using Envoy as a HTTPS to HTTP proxy (7X Faster than Nginx)
 
 Create a ```envoy.yaml``` file with the following content:
 ```
