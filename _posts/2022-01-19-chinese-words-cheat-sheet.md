@@ -1,2 +1,3 @@
-我 = I  
-是 = to be - 我是 = I am
+我 = I
+
+是 = to be, 我是 = I am
