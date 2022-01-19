@@ -1,3 +1,4 @@
-# Chinese words cheat sheet
+# Chinese Words Cheat Sheet
 
 我 = I
+是 - to be
