@@ -1,6 +1,7 @@
 我 = I
 
-是 = to be, 我是 = I am
+是 = to be
+我是 = I am
 
 想 ＝ think
 
