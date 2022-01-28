@@ -1,4 +1,4 @@
-我 = I
+我 = I  
 我很高兴 = I am happy
 
 是 = to be  
