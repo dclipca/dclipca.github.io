@@ -7,3 +7,5 @@
 想 ＝ think
 
 要 ＝ want
+
+说 = speak
