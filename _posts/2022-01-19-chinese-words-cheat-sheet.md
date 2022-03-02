@@ -9,3 +9,7 @@
 要 ＝ want
 
 说 = speak
+
+老师 = teacher
+语
+问 = ask
