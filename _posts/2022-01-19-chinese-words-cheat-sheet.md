@@ -10,6 +10,8 @@
 
 说 = speak
 
-老师 = teacher
-语
+老师 = teacher  
+
+语  
+
 问 = ask
