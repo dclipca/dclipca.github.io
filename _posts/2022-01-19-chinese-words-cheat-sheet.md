@@ -1,5 +1,5 @@
 我 = I  
-我很高兴 = I am happy
+我很高兴 = I am happy  
 不 = not  
 
 是 = to be  
