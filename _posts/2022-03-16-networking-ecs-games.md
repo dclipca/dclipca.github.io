@@ -6,4 +6,4 @@ According to Wikipedia, ECS `follows the principle of composition over inheritan
 
 Everything is moving towards modularization.
 
-What if networking can be more modularized in the same way? `ECS` splits things into `data (entities and components)` and `behavior (systems). Clients and servers can communicate by interchanging components, which they can share merely by using the same `ECS` system.
+What if networking can be more modularized in the same way? `ECS` splits things into `data (entities and components)` and `behavior (systems)`. Clients and servers can communicate by interchanging components, which they can share merely by using the same `ECS` system.
