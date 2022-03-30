@@ -10,6 +10,4 @@ Similar to `Rust`, `DayZ Mod` core mechanic was survival, but that's not why it 
 
 There's a clear pattern you can see in any survival game such as `Rust`or `DayZ Mod`, and it's that `survival games are not about survival`. If it's not about survival then what are they about? The answer is `stories`.
 
-The definition of a `story` is a succesion of `events`. An `event` is anything emotionally valuable (someone dies or you find some berries next to a tree) ━ both `events` provoke an emotion. `Stories` is the answer why we watch movies or read books. Since 2010s, we got new ways to generate procedural stories (and even participate in them) in the form of sandbox games.
-
-Yes, `stories`
+The definition of a `story` is a succesion of `events`. An `event` is anything emotionally valuable (someone dies or you find some berries next to a tree) ━ both `events` provoke an emotion. `Stories` is why we watch movies or read books. Since 2010s, we got new ways to generate procedural stories (and even participate in them) in the form of sandbox games. Combine emergent `stories` with the freedom of choosing whatever you want to do, and you get the real reason why "survival" games work.
