@@ -1,5 +1,5 @@
-# Two Entity Discrimination with FastAI
+# Why Survival Games Are Not About Survival
 
-![Data Example](https://github.com/dclipca/dclipca.github.io/raw/master/images/entity-discrimination-data-example.png)
+![DayZ Mod](https://github.com/dclipca/dclipca.github.io/raw/master/images/dayz-mod.png)
 
-First, we need to download the images. In this example we will discriminate between two kinds of mushrooms – Fly Agaric (poisonous) and Champignon (edible). A Bing Image Search key is needed (free). In order to set the key run this in your terminal: `export AZURE_SEARCH_KEY=your_key_here`.
+One of the best "survival" games I've played was `DayZ Mod`. `DayZ Mod` pionered the whole survival game and served as a branching point for many current games such as `Rust` (evolved directly from `DayZ`) and Fortnite (evolved from `PUBG`, which evolved from `DayZ`).
