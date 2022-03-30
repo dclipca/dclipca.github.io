@@ -1,6 +1,6 @@
 # Survival Games Are Not About Survival
 
-![DayZ Mod](https://github.com/dclipca/dclipca.github.io/raw/master/images/dayz-mod.jpg)
+![Rust Legacy](https://github.com/dclipca/dclipca.github.io/raw/master/images/rust-legacy.jpg)
 
 One of the best "survival" games I've played was `DayZ Mod`. `DayZ Mod` pionered the `survival` genre and served as a branching point for games such as `Rust`, `Fortnite` and `PUBG`. `DayZ Mod` took the industry by storm, partly because no one was accustomed the freedom it provided. One thing that frustrated me about `DayZ Mod` and other survival game players was the missatribution of the game objective ━ the marketed point of the game was to survive but that's not why people were playing it.
 
